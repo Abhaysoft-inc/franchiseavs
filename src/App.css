@@ -1,0 +1,31 @@
+.random {
+    position: relative; /* Make sure the parent is positioned */
+    background-image: url("assets/images/download.webp");
+    background-size: cover;
+}
+
+.random::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 50% opacity */
+}
+.container1{
+        padding: 20px;
+        height: 100%;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.logobox{
+    background-image: url("assets\images\Zudio.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
