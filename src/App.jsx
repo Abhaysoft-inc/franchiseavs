@@ -4,11 +4,38 @@ import {BrowserRouter, Route, Routes, Link} from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import ZudioPage from './screens/ZudioPage';
 import PopupForm from './components/Popupform';
+import LeadPopup from './components/LeadPopup';
 import { useEffect } from 'react';
+import React, { useState } from 'react';
+import PreferredLocations from './screens/Testpage';
 
 function App() {
 
+  const [showPopup, setShowPopup] = useState(false);
+  const [dismissed, setDismissed] = useState(false); // Track dismissal state
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const windowHeight = window.innerHeight;
+      const scrollPosition = window.scrollY;
+      const contentHeight = document.documentElement.scrollHeight;
+
+      if (!dismissed && scrollPosition + windowHeight >= contentHeight / 2) {
+        setShowPopup(true);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [dismissed]); // Re-run only on dismissal state change
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
+    setDismissed(true); // Set dismissal flag
+  };
 
 
 
@@ -19,12 +46,17 @@ function App() {
 
       <BrowserRouter>
     <Navbar/>
-    {/* <PopupForm/>   */}
+    
+    
+      {/* {showPopup && <LeadPopup onClose={handleClosePopup} />} */}
+   
+   
 
     <Routes>
       {/* <Route path='/' element={<PopupForm />} /> */}
       <Route path='/' element={<HomeScreen/>}/>
       <Route path='/zudio-franchise' element={<ZudioPage/>}/>
+      <Route path='/test' element={<PreferredLocations />}/>
       
 
       

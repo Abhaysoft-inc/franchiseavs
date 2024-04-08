@@ -2,6 +2,26 @@
 import { useEffect } from 'react';
 
 
+const locations = [
+  {
+    title: 'New Delhi',
+    areas: [
+      'Najafgarh Road Metro Station Line',
+      'Rajouri Garden Market',
+      'Near Pacific Mall, Subash Nagar',
+      'Tagore Garden',
+      'Dwarka, Good Property',
+    ],
+  },
+  {
+    title: 'South Delhi',
+    areas: ['Malviya Nagar', 'Saket', 'Vasant Kunj'],
+  },
+  // Add more location objects for other regions
+];
+
+
+
 
 
 function ZudioPage() {
@@ -67,7 +87,9 @@ function ZudioPage() {
 
 <h2 className='mt-10 text-3xl font-bold mb-6 underline'>ZUDIO Franchise Requirements</h2>
 
-<div className="overflow-x-auto mt-10">
+
+<div className='flex space-x-10'>
+  <div className="overflow-x-auto mt-10 w-4/5 border-black ">
   <table className="table-auto min-w-full divide-y divide-gray-200">
     <thead className="bg-gray-50">
       <tr>
@@ -103,12 +125,49 @@ function ZudioPage() {
       {/* Add more rows for other requirements */}
     </tbody>
   </table>
+
+
+</div>
+
+<div className="enquiry w-2/5 border-black border  mt-10 h-auto">
+
+<p className='text-center mt-10 text-2xl'>Interested In ZUDIO?</p>
+<p className='text-center mt-1 text-lg'>Enquire Now! </p>
+<form action="" className='text-center mt-6 space-y-3'>
+  <input type="text" name="" id="" placeholder='Name' className='border-black border p-2' />
+  <input type="email" name="" placeholder='Email' id="" className='border-black border p-2' />
+  {/* <input type="tel" name="" placeholder='Mobile' id="" className='border-black border p-2' /> */}
+  <input type="text" name="" id="" placeholder='Message' className='border-black border p-2' /><br />
+  <input type="submit" value="Request Info" className='bg-yellow-500 py-4 px-14 text-white font-[600]' />
+
+</form>
+</div>
+
 </div>
 
 
 
+<section className="py-16">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold mb-8 underline">Preferred Franchise Locations by ZUDIO</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {locations.map((location, index) => (
+            <div key={index} className=" p-6 rounded-md shadow-md hover:shadow-lg bg-yellow-200">
+              <h3 className="text-xl font-semibold mb-4">{location.title}</h3>
+              <ul className="list-disc ml-6">
+                {location.areas.map((area, index) => (
+                  <li key={index} className="mb-2">{area}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
 
-<div className="container mx-auto py-12">
+
+
+{/* <div className="container mx-auto py-12">
   <h2 className="text-3xl font-bold mb-6 underline">Preffered Franchise Locations by ZUDIO</h2>
   <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
     <li className="bg-white rounded-lg shadow-md p-4">
@@ -202,7 +261,7 @@ function ZudioPage() {
       Delhi Ncr all Metro Lines property’s
     </li>
   </ul>
-</div>
+</div> */}
 
 
 <div className="container mx-auto py-12">
