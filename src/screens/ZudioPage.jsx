@@ -37,18 +37,18 @@ function ZudioPage() {
         <>
 
 
-<div className='flex mx-32'>
+<div className='flex mx-10 my-10  lg:mx-32'>
 
-<h1 className="py-10 font-[600] text-[32px]">ZUDIO Franchise Cost - Open your own ZUDIO store</h1>
+<h1 className=" text-[20px] lg:py-10 font-[600] lg:text-[32px]">ZUDIO Franchise Cost - Open your own ZUDIO store</h1>
 
 </div>
 
-<div className='flex mx-32 space-x-10'>
+<div className='flex justify-center lg:mx-32 lg:space-x-10'>
 
-<div className="random w-3/5 h-[230px]">
+<div className="hidden lg:block random lg:w-3/5 h-[230px]">
   <div className="container1">
-    <p className='text-white text-[32px] font-[600]'>Launch your own ZUDIO store with ease!</p>
-    <p className="text-yellow-600 font-[600] text-[22px]">Contact us now for more information!</p>
+    <p className='text-white lg:text-[32px] font-[600]'>Launch your own ZUDIO store with ease!</p>
+    <p className="text-yellow-600 font-[600] lg:text-[22px]">Contact us now for more information!</p>
 
   </div>
 
@@ -56,7 +56,7 @@ function ZudioPage() {
 
 </div>
 
-<div className="logobox w-1/3 h-[230px]">
+<div className=" logobox lg:w-1/3 lg:h-[230px]">
 
   {/* <img src="src\assets\images\Zudio.jpg" className='h-[230px] w-[400px]' alt="" /> */}
 
@@ -69,27 +69,28 @@ function ZudioPage() {
 
 </div>
 
-<div className="blog mx-32 mt-20">
 
-<h2 className='text-3xl font-bold mb-6 underline'>ZUDIO Franchise Details</h2>
+<div className="mx-5 blog lg:mx-32 mt-20">
 
-<div className="flex space-x-4">
+<h2 className='text-xl lg:text-3xl font-bold mb-6 '>ZUDIO Franchise Details</h2>
 
-  <p className='mt-5 w-2/3'>The ZUDIO Franchise offers a promising opportunity for aspiring entrepreneurs seeking to venture into the retail sector. With a focus on trendy apparel and accessories, ZUDIO provides a diverse product line that appeals to a wide range of customers. The franchise package includes comprehensive support in areas such as site selection, store setup, inventory management, and marketing strategies. 
+<div className="  lg:flex lg:space-x-4 ">
+
+  <p className='mt-5 lg:w-2/3 '>The ZUDIO Franchise offers a promising opportunity for aspiring entrepreneurs seeking to venture into the retail sector. With a focus on trendy apparel and accessories, ZUDIO provides a diverse product line that appeals to a wide range of customers. The franchise package includes comprehensive support in areas such as site selection, store setup, inventory management, and marketing strategies. 
     <br />
     <br />
 
     Backed by a reputable brand and a proven business model, ZUDIO franchisees benefit from established systems and guidance to help ensure their success. By embracing innovation and staying ahead of fashion trends, ZUDIO franchises have the potential to thrive in the competitive retail landscape, offering both financial rewards and the satisfaction of owning a flourishing business.</p>
 
-  <img src="assets/images/1692614112130.png" className='w-1/3 h-60' alt="" />
+  <img src="assets/images/1692614112130.png" className='mt-10 lg:mt-0 lg:w-1/3 h-60 ' alt="" />
 
 </div>
 
-<h2 className='mt-10 text-3xl font-bold mb-6 underline'>ZUDIO Franchise Requirements</h2>
+<h2 className='mt-10 text-xl lg:text-3xl font-bold mb-6'>ZUDIO Franchise Requirements</h2>
 
 
-<div className='flex space-x-10'>
-  <div className="overflow-x-auto mt-10 w-4/5 border-black ">
+<div className='lg:flex lg:space-x-10'>
+  <div className="overflow-x-auto mt-10 lg:w-4/5 border-black ">
   <table className="table-auto min-w-full divide-y divide-gray-200">
     <thead className="bg-gray-50">
       <tr>
@@ -129,7 +130,7 @@ function ZudioPage() {
 
 </div>
 
-<div className="enquiry w-2/5 border-black border  mt-10 h-auto">
+<div className="hidden lg:block enquiry w-2/5 border-black border  mt-10 h-auto">
 
 <p className='text-center mt-10 text-2xl'>Interested In ZUDIO?</p>
 <p className='text-center mt-1 text-lg'>Enquire Now! </p>
@@ -149,7 +150,7 @@ function ZudioPage() {
 
 <section className="py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 underline">Preferred Franchise Locations by ZUDIO</h2>
+        <h2 className="text-xl lg:text-3xl font-bold mb-6 underline">Preferred Franchise Locations by ZUDIO</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {locations.map((location, index) => (
             <div key={index} className=" p-6 rounded-md shadow-md hover:shadow-lg bg-yellow-200">
@@ -265,7 +266,7 @@ function ZudioPage() {
 
 
 <div className="container mx-auto py-12">
-  <h2 className="text-3xl font-bold mb-6 underline">Type of Market Required</h2>
+  <h2 className="text-xl lg:text-3xl font-bold mb-6 underline">Type of Market Required</h2>
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
     <div className="bg-white rounded-lg shadow-md p-6">
       <h3 className="text-xl font-bold mb-4">Priority wise:</h3>
