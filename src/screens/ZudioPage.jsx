@@ -1,7 +1,18 @@
-import React, { Component } from 'react'
 
-export default class ZudioPage extends Component {
-  render() {
+import { useEffect } from 'react';
+
+
+
+
+function ZudioPage() {
+  useEffect(() => {
+    document.title = "ZUDIO Franchise Cost - Details, Reviews, Requirements";
+    return () => {
+      // Optionally, you can reset the title when the component unmounts
+      document.title = "Bharat Franchise - Explore Brand Franchises across the India";
+    };
+  }, []);
+
     return (
         <>
 
@@ -259,5 +270,7 @@ export default class ZudioPage extends Component {
         </>
       
     )
-  }
+  
 }
+
+export default ZudioPage;
