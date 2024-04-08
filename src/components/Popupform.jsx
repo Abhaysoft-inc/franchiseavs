@@ -20,6 +20,10 @@ const PopupForm = () => {
 
             <div className="leftbox bg-blue-800 w-1/2">
 
+                <img src="/assets/images/cropped-Franchise-AVS-180-x-60-px-9.png" alt="" className='px-20 py-10' />
+
+                <p className='text-center text-[25px] text-white font-[600]'>Expert Advise For Free!</p>
+
             </div>
             <div className="rightbox w-1/2">
 
