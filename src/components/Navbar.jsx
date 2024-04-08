@@ -9,7 +9,7 @@ export default class Navbar extends Component {
           <ul className="py-[17px] flex">
             <li className="Brand ml-[112px]">
               <a href="/">
-                <img src="/assets/images/cropped-Franchise-AVS-180-x-60-px-9.png" alt="" />
+                <img src="/assets/images/harat.png" className='w-auto h-16' alt="" />
               </a>
             </li>
 
