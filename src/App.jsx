@@ -18,7 +18,7 @@ function App() {
     {/* <PopupForm/>   */}
 
     <Routes>
-      <Route path='/' element={<PopupForm />} />
+      {/* <Route path='/' element={<PopupForm />} /> */}
       <Route path='/' element={<HomeScreen/>}/>
       <Route path='/zudio-franchise' element={<ZudioPage/>}/>
       

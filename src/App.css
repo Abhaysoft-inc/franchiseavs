@@ -29,3 +29,29 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+
+
+.searchsection {
+    position: relative; /* Make sure the parent is positioned */
+    background-image: url("/assets/images/download.webp");
+    background-size: cover;
+}
+
+.searchsection::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Black with 50% opacity */
+}
+
+
+.container2{
+    
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    
+}
