@@ -54,7 +54,7 @@ function App() {
 
             Voluptatibus, officia officiis quam ratione a ad eligendi minus accusantium, natus, neque tenetur quod sapiente quaerat ipsa fugiat voluptates nostrum ex consectetur rerum facere? Adipisci magni consectetur ullam quos sint totam delectus veniam architecto explicabo, reprehenderit quae! Recusandae quaerat aut consequuntur corporis quae excepturi cumque mollitia veritatis nostrum necessitatibus </p>
 
-          <img src="src\assets\images\1692614112130.png" className='w-1/3 h-60' alt="" />
+          <img src="assets/images/1692614112130.png" className='w-1/3 h-60' alt="" />
 
         </div>
 

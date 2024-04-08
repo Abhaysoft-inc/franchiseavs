@@ -1,6 +1,6 @@
 .random {
     position: relative; /* Make sure the parent is positioned */
-    background-image: url("assets/images/download.webp");
+    background-image: url("/assets/images/download.webp");
     background-size: cover;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .logobox{
-    background-image: url("assets\images\Zudio.jpg");
+    background-image: url("/assets/images/Zudio.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
