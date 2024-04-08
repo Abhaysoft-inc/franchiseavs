@@ -40,21 +40,21 @@ export default class ZudioPage extends Component {
 
 <div className="blog mx-32 mt-20">
 
-<p className='text-3xl font-bold mb-6 underline'>ZUDIO Franchise Details</p>
+<h2 className='text-3xl font-bold mb-6 underline'>ZUDIO Franchise Details</h2>
 
 <div className="flex space-x-4">
 
-  <p className='mt-5 w-2/3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam obcaecati sit, voluptate unde laborum iusto nulla. Iure pariatur itaque a vel assumenda, quas commodi maiores nobis, sapiente praesentium repudiandae quaerat molestias voluptas unde ut atque saepe.
+  <p className='mt-5 w-2/3'>The ZUDIO Franchise offers a promising opportunity for aspiring entrepreneurs seeking to venture into the retail sector. With a focus on trendy apparel and accessories, ZUDIO provides a diverse product line that appeals to a wide range of customers. The franchise package includes comprehensive support in areas such as site selection, store setup, inventory management, and marketing strategies. 
     <br />
     <br />
 
-    Voluptatibus, officia officiis quam ratione a ad eligendi minus accusantium, natus, neque tenetur quod sapiente quaerat ipsa fugiat voluptates nostrum ex consectetur rerum facere? Adipisci magni consectetur ullam quos sint totam delectus veniam architecto explicabo, reprehenderit quae! Recusandae quaerat aut consequuntur corporis quae excepturi cumque mollitia veritatis nostrum necessitatibus </p>
+    Backed by a reputable brand and a proven business model, ZUDIO franchisees benefit from established systems and guidance to help ensure their success. By embracing innovation and staying ahead of fashion trends, ZUDIO franchises have the potential to thrive in the competitive retail landscape, offering both financial rewards and the satisfaction of owning a flourishing business.</p>
 
   <img src="assets/images/1692614112130.png" className='w-1/3 h-60' alt="" />
 
 </div>
 
-<p className='mt-10 text-3xl font-bold mb-6 underline'>ZUDIO Franchise Requirements</p>
+<h2 className='mt-10 text-3xl font-bold mb-6 underline'>ZUDIO Franchise Requirements</h2>
 
 <div className="overflow-x-auto mt-10">
   <table className="table-auto min-w-full divide-y divide-gray-200">
