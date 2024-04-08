@@ -12,30 +12,80 @@ export default class Oppertunities extends Component {
 
         <div className="grid grid-cols-5 gap-4 mt-8">
               {/* Example Card Component */}
-              <div className="col-span-1 bg-white shadow-md rounded-md p-4">
-                <h2 className="text-xl font-bold text-gray-800">Card 1</h2>
-                <p>Card content goes here</p>
+
+
+              <div className="col-span-1 bg-white border-black border-2 shadow-md p-1 h-64">
+                <img src="/assets/images/braevo-interactive-panel.png" alt="" />
+
+                <p className="text-center text-gray-500 mt-1 text-xs">Category</p>
+                <p className="text-center text-red-700 font-bold">Braevo Interactive Panel</p>
+                
+
+
               </div>
-              <div className="col-span-1 bg-white shadow-md rounded-md p-4">
-                <h2 className="text-xl font-bold text-gray-800">Card 2</h2>
-                <p>Card content goes here</p>
+
+              <div className="col-span-1 bg-white border-black border-2 shadow-md p-1 h-64">
+                <img src="/assets/images/braevo-interactive-panel.png" alt="" />
+
+                <p className="text-center text-gray-500 mt-1 text-xs">Category</p>
+                <p className="text-center text-red-700 font-bold">Braevo Interactive Panel</p>
+                
+
+
               </div>
-              <div className="col-span-1 bg-white shadow-md rounded-md p-4">
-                <h2 className="text-xl font-bold text-gray-800">Card 3</h2>
-                <p>Card content goes here</p>
+              <div className="col-span-1 bg-white border-black border-2 shadow-md p-1 h-64">
+                <img src="/assets/images/braevo-interactive-panel.png" alt="" />
+
+                <p className="text-center text-gray-500 mt-1 text-xs">Category</p>
+                <p className="text-center text-red-700 font-bold">Braevo Interactive Panel</p>
+                
+
+
+              </div><div className="col-span-1 bg-white border-black border-2 shadow-md p-1 h-64">
+                <img src="/assets/images/braevo-interactive-panel.png" alt="" />
+
+                <p className="text-center text-gray-500 mt-1 text-xs">Category</p>
+                <p className="text-center text-red-700 font-bold">Braevo Interactive Panel</p>
+                
+
+
+              </div><div className="col-span-1 bg-white border-black border-2 shadow-md p-1 h-64">
+                <img src="/assets/images/braevo-interactive-panel.png" alt="" />
+
+                <p className="text-center text-gray-500 mt-1 text-xs">Category</p>
+                <p className="text-center text-red-700 font-bold">Braevo Interactive Panel</p>
+                
+
+
+              </div><div className="col-span-1 bg-white border-black border-2 shadow-md p-1">
+                <img src="/assets/images/braevo-interactive-panel.png" alt="" />
+
+                <p className="text-center text-gray-500 mt-1 text-xs">Category</p>
+                <p className="text-center text-red-700 font-bold">Braevo Interactive Panel</p>
+                
+
+
+              </div><div className="col-span-1 bg-white border-black border-2 shadow-md p-1 h-64">
+                <img src="/assets/images/braevo-interactive-panel.png" alt="" />
+
+                <p className="text-center text-gray-500 mt-1 text-xs">Category</p>
+                <p className="text-center text-red-700 font-bold">Braevo Interactive Panel</p>
+                
+
+
+              </div><div className="col-span-1 bg-white border-black border-2 shadow-md p-1 h-64">
+                <img src="/assets/images/braevo-interactive-panel.png" alt="" />
+
+                <p className="text-center text-gray-500 mt-1 text-xs">Category</p>
+                <p className="text-center text-red-700 font-bold">Braevo Interactive Panel</p>
+                
+
+
               </div>
-              <div className="col-span-1 bg-white shadow-md rounded-md p-4">
-                <h2 className="text-xl font-bold text-gray-800">Card 4</h2>
-                <p>Card content goes here</p>
-              </div>
-              <div className="col-span-1 bg-white shadow-md rounded-md p-4">
-                <h2 className="text-xl font-bold text-gray-800">Card 5</h2>
-                <p>Card content goes here</p>
-              </div>
-              <div className="col-span-1 bg-white shadow-md rounded-md p-4">
-                <h2 className="text-xl font-bold text-gray-800">Card 6</h2>
-                <p>Card content goes here</p>
-              </div>
+
+
+
+              
               
             </div>
     </div>
