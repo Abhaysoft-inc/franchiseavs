@@ -5,7 +5,7 @@ export default class Oppertunities extends Component {
     return (
     <>
 
-    <div className='mt-10 h-96 mx-32'>
+    <div className='mt-10 mx-32'>
         <p className='text-center text-3xl font-[600]'>Latest Franchise Opportunities</p>
 
 
@@ -88,6 +88,27 @@ export default class Oppertunities extends Component {
               
               
             </div>
+
+           <p className='text-center mt-6 mb-16 bg-red-700 p-2 text-white font-[600] border-white border rounded-lg hover:cursor-pointer'><a href="">LOAD MORE</a></p>
+
+
+           <p className='text-center text-3xl font-[600] mb-10'>LATEST BRANDS</p>
+
+           <div className="flex space-x-10 ">
+
+            <img src="/assets/images/1.gif" className='w-1/2' alt="" />
+            <img src="/assets/images/1.gif" className='w-1/2' alt="" />
+
+
+           </div>
+           <div className="flex space-x-10 mt-5">
+
+            <img src="/assets/images/1.gif" className='w-1/2' alt="" />
+            <img src="/assets/images/1.gif" className='w-1/2' alt="" />
+
+
+           </div>
+
     </div>
     
     
