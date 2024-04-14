@@ -22,9 +22,9 @@ export default class SearchFranchise extends Component {
               </div>
             </div>
 
-            <p className=' mt-6 text-center text-white font-[600] text-2xl'>Are You Looking For Brand Franchise in India?</p>
+            <p className=' mt-6 mx-1 text-center text-white font-[600] text-2xl'>Are You Looking For Brand Franchise in India?</p>
 
-            <p className=' mt-6 text-center text-pink-600 font-[600] text-3xl'>Welcome To Bharat Franchise</p>
+            <p className=' mt-6 mx-1 text-center text-pink-600 font-[600] text-3xl'>Welcome To Bharat Franchise</p>
           </div>
         </div>
       </>
