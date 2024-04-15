@@ -15,12 +15,12 @@ export default class Navbar extends Component {
 
             <li className="relative group mt-5 ml-[352px] pr-10 z-20">
               <a href="/blog" className="z-20">Blogs</a>
-              <ul className="absolute hidden bg-white text-gray-800 shadow-md rounded mt-2 group-hover:block">
+              {/* <ul className="absolute hidden bg-white text-gray-800 shadow-md rounded mt-2 group-hover:block">
                 <li><a href="/fashion" className="block px-4 py-2 hover:bg-gray-200">Fashion</a></li>
                 <li><a href="/retail" className="block px-4 py-2 hover:bg-gray-200">Retail</a></li>
                 <li><a href="/food-and-bevrages" className="block px-4 py-2 hover:bg-gray-200">Food and Bevrages</a></li>
                 <li><a href="/beauty-and-wellness" className="block px-4 py-2 hover:bg-gray-200">Beauty and Wellness</a></li>
-              </ul>
+              </ul> */}
             </li>
 
             <li className="relative group mt-5 ml-0">
