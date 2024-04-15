@@ -14,7 +14,7 @@ export default class Navbar extends Component {
             </li>
 
             <li className="relative group mt-5 ml-[352px] pr-10 z-20">
-              <a href="/" className="z-20">Categories</a>
+              <a href="/blog" className="z-20">Blogs</a>
               <ul className="absolute hidden bg-white text-gray-800 shadow-md rounded mt-2 group-hover:block">
                 <li><a href="/fashion" className="block px-4 py-2 hover:bg-gray-200">Fashion</a></li>
                 <li><a href="/retail" className="block px-4 py-2 hover:bg-gray-200">Retail</a></li>
