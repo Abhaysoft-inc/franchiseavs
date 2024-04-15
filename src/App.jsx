@@ -8,6 +8,7 @@ import LeadPopup from './components/LeadPopup';
 import { useEffect } from 'react';
 import React, { useState } from 'react';
 import PreferredLocations from './screens/Testpage';
+import BlogScreen from './screens/BlogScreen';
 
 function App() {
 
@@ -57,6 +58,7 @@ function App() {
       <Route path='/' element={<HomeScreen/>}/>
       <Route path='/zudio-franchise' element={<ZudioPage/>}/>
       <Route path='/test' element={<PreferredLocations />}/>
+      <Route path='/blog' element={<BlogScreen/>}/>
       
 
       
