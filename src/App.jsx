@@ -9,6 +9,7 @@ import { useEffect } from 'react';
 import React, { useState } from 'react';
 import PreferredLocations from './screens/Testpage';
 import BlogScreen from './screens/BlogScreen';
+import EnamorPage from './screens/EnamorPage';
 
 function App() {
 
@@ -59,6 +60,7 @@ function App() {
       <Route path='/zudio-franchise' element={<ZudioPage/>}/>
       <Route path='/test' element={<PreferredLocations />}/>
       <Route path='/blog' element={<BlogScreen/>}/>
+      <Route path='/enamor-franchise-cost-details-and-reviews' element={<EnamorPage/>}/>
       
 
       
